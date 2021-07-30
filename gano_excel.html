@@ -1,70 +1,384 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gano Excel</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
+
 <body>
     <div class="big_container">
         <div class="menu">
-          <nav class="navbar navbar-expand-xl navbar-dark">
-            <a class="navbar-brand" href="#">
-              <div class="logo">
-                <img src="image/guzel-safya-gano-excel-sabun.webp">
-              </div>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse align-self-stretch" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">ANASAYFA</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    GANO EXCEL
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Gano Excel Nedir</a></li>
-                    <li>
-                    </li>
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">ÜYELİK</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    ÜRÜNLER
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Kişisel Bakım ÜRÜNLERİ</a></li>
-                    <li><a class="dropdown-item" href="#">Kahve İçecek Ürünleri</a></li>
-    
-                    <li><a class="dropdown-item" href="#">Gıda Takviyesi Ürünleri</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">BLOG</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">İLETİŞİM</a>
-                </li>
-              </ul>
-    
-            </div>
-          </nav>
+            <nav class="navbar navbar-expand-xl navbar-dark">
+                <a class="navbar-brand" href="#">
+                    <div class="logo">
+                        <img src="image/guzel-safya-gano-excel-sabun.webp">
+                    </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse align-self-stretch" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">ANASAYFA</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                GANO EXCEL
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Gano Excel Nedir</a></li>
+                                <li>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ÜYELİK</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                ÜRÜNLER
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Kişisel Bakım ÜRÜNLERİ</a></li>
+                                <li><a class="dropdown-item" href="#">Kahve İçecek Ürünleri</a></li>
+
+                                <li><a class="dropdown-item" href="#">Gıda Takviyesi Ürünleri</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">BLOG</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">İLETİŞİM</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </nav>
         </div>
-      </div>
-      
+    </div>
+
+
+    <div class="container">
+        <div class="gano_excel_header">
+            <div class="row align-items-center">
+                <div class="col-2 d-flex justify-content-center">
+                    <div class="header_logo d-flex align-items-center justify-content-center">
+                        <img src="image/indir.webp">
+                    </div>
+                </div>
+
+                <div class="col-10">
+                    <div class="header_baslik">
+                        <span>GANO EXCEL NEDİR</span>
+                    </div>
+                    <div class="header_yazi">
+                        <p>1998 yılında Türkiye'de aktif olarak satış yapmaya başlayan Gano Excel firması binlerce
+                            firması ile gıda takviyesi ürünlerinin birçok hastalığa iyi geldiği ve bunları belirli
+                            seminerde canlı yayınlarda sonuçlar gösterilmektedir. Kullanılması gereken miktar ve
+                            kürlerinin mutlaka ürünün aldığını kişilerden teyit ederek kullanmaya başlayabilirsiniz.
+                            Gano Excel Reishi mantarı özünün üretilmesi ve dünya genelinde satış yapan en büyük
+                            firmadır. Excellium en iyi etki alınması için mutlaka Ganoderma ile kullanılmalıdır.
+                            Ganoderme vücutta iyileşme etki yaparken
+                            , Excellium kapsülleri ile gerekli besinler sağlanmış olur. Ürün takviye grubumuzda
+                            kullanılan tüm ürünlerde yaş sınırlanması yoktur.</p>
+                    </div>
+                    <div class="buton">
+                        <button type="button" class="btn btn-secondary"><span>Başvuru Formu</span></button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="gano_excel_urunleri">
+            <div class="row">
+                <div class="col-6">
+                    <div class="bolum_bir">
+                        <h3>Gano Excel Ürünleri</h3>
+                        <p>Günlük rutin içeceklerimize ganoderma'yı ilave ederek hem ek maliyet oluşmamasını sağlıyor ,
+                            aynı zamanda farkına varmadan sağlığımıza kavuşmamızı sağlıyor.<br>
+                            GANOCAFE HAZELNUT COFFEE<br>
+                            OLEAF GANO REEBUSTEE<br>
+                            GANOCAFE HAZELNUT COFFEE<br>
+                            G’BEAUTE REISHI MISTY<br>
+                            REISHI GOLD<br>
+                            EXCELLIUM GOLD<br>
+                            EXCELLIUM GOLD<br>
+                            GANODERMA<br>
+                            GANO EXCELLIUM<br>
+                            GANO SUPRENO<br>
+                            GANOCAFE CLASSIC<br>
+                            GANO CAFE 3 IN 1<br>
+                            GANOCAFE MOCHA<br>
+                            OLEAF GANO ROOIBOS DRINK<br>
+                            GANO TRANSPARENT SOAP<br>
+                            GANO SOAP<br>
+                            GANO FRESH<br>
+                            Gano excel nedir firma ürünlerini reishi mantarını özleştiren formülü ile üretimini yapan
+                            bir firmadır. Kahve içecek ürüneri , Gıda takviyesi ürünleri ve kişisel bakım ürünleri
+                            üreterek bunları bağımsız bayi ağları sayesinde ürünleri satışını gerçekleştirirken aynı
+                            zamanda network marketing sayesinde pazarlamasını yapmaktadır. </p>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="sag_ust_img">
+                        <img src="image/gano-excel-nedir-kahve-ganoderma.webp">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="icerik_yazi">
+            <div class="row blog-eleman align-items-center">
+                <div class="col-6">
+                    <div class="icerik_resim">
+                        <img src="image/gano-excel-nedir-nasil-para-kazanilir-.webp">
+                    </div>
+                </div>
+                <div class="col-6 align-items-center">
+                    <div class="icerik_aciklama">
+                        <h3>Gano Excel Nedir Nasıl Para Kazanılır ?</h3>
+                        <p>
+                            Gano excel milyonlarca kişi tarafından ürünleri kullanılan dünya genelinde markalaşmış
+                            network marketing şirketidir. Ürünlerinin özünü reishi mantarı oluşturmaktadır. Ganoderma
+                            adı verilen mantar gano kahve - gano sabun ve gıda kapsüllerini network marketing şekline
+                            getirilmiş ve satışı yapılmaktadır.
+                            Gano excel nasıl para kazanılır cevabını buradan verdim. Gano excel üyeliği yaparak ürün
+                            alıştan , satıştan ve sistem içindeki primlerden para kazanırsınız.
+
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row blog-eleman align-items-center">
+                <div class="col-6">
+                    <div class="icerik_aciklama">
+                        <h3>Gano Excel Nedir Nasıl Para Kazanılır ?</h3>
+                        <p>
+                            Gano excel milyonlarca kişi tarafından ürünleri kullanılan dünya genelinde markalaşmış
+                            network marketing şirketidir. Ürünlerinin özünü reishi mantarı oluşturmaktadır. Ganoderma
+                            adı verilen mantar gano kahve - gano sabun ve gıda kapsüllerini network marketing şekline
+                            getirilmiş ve satışı yapılmaktadır.
+                            Gano excel nasıl para kazanılır cevabını buradan verdim. Gano excel üyeliği yaparak ürün
+                            alıştan , satıştan ve sistem içindeki primlerden para kazanırsınız.
+
+                        </p>
+
+                    </div>
+                </div>
+                <div class="col-6 align-items-center">
+                    <div class="icerik_resim">
+                        <img src="image/gano-excel-nedir-nasil-para-kazanilir-.webp">
+                    </div>
+                </div>
+
+            </div>
+            <div class="row blog-eleman align-items-center">
+                <div class="col-6 align-items-center">
+                    <div class="icerik_resim">
+                        <img src="image/gano-excel-nedir-nasil-para-kazanilir-.webp">
+                    </div>
+                </div>
+                <div class="col-6 ">
+                    <div class="icerik_aciklama">
+                        <h3>Gano Excel Nedir Nasıl Para Kazanılır ?</h3>
+                        <p>
+                            Gano excel milyonlarca kişi tarafından ürünleri kullanılan dünya genelinde markalaşmış
+                            network marketing şirketidir. Ürünlerinin özünü reishi mantarı oluşturmaktadır. Ganoderma
+                            adı verilen mantar gano kahve - gano sabun ve gıda kapsüllerini network marketing şekline
+                            getirilmiş ve satışı yapılmaktadır.
+                            Gano excel nasıl para kazanılır cevabını buradan verdim. Gano excel üyeliği yaparak ürün
+                            alıştan , satıştan ve sistem içindeki primlerden para kazanırsınız.
+
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row blog-eleman align-items-center">
+                <div class="col-6">
+                    <div class="icerik_aciklama">
+                        <h3>Gano Excel Nedir Nasıl Para Kazanılır ?</h3>
+                        <p>
+                            Gano excel milyonlarca kişi tarafından ürünleri kullanılan dünya genelinde markalaşmış
+                            network marketing şirketidir. Ürünlerinin özünü reishi mantarı oluşturmaktadır. Ganoderma
+                            adı verilen mantar gano kahve - gano sabun ve gıda kapsüllerini network marketing şekline
+                            getirilmiş ve satışı yapılmaktadır.
+                            Gano excel nasıl para kazanılır cevabını buradan verdim. Gano excel üyeliği yaparak ürün
+                            alıştan , satıştan ve sistem içindeki primlerden para kazanırsınız.
+
+                        </p>
+
+                    </div>
+                </div>
+                <div class="col-6 align-items-center">
+                    <div class="icerik_resim">
+                        <img src="image/gano-excel-nedir-nasil-para-kazanilir-.webp">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="arka_plan">
+        <div class="container">
+            <div class="row blog-eleman">
+                <div class="col-12 align-items-center">
+                    <div class="soru_bolumu">
+                        <h3>Gano Excel</h3>
+                        <h2>Hakkında Sıkça Sorulan Sorular</h2>
+                        <br>
+                        <span>Sizi arayabilmemiz için lütfen formumuzu Doldurunuz.</span>
+                        <h6>Ürünlerden kullanmak istiyorsanız ve kullanım şekilleri için lütfen formu göndererek sizinle
+                            iletişime geçmemizi sağlayın ;</h6>
+                        <br>
+                        <span>ÜRÜN SİPARİŞ FORMU :<a href="#">TIKLA </a></span>
+                        <br>
+                        <h6>Sizde ürünlerden satın alarak hem uygun fiyatlı almak ve bizimle beraber satışını yapmak
+                            istiyorsanız ;
+                            <br>
+                            <br>
+                            <span>DİSTRİBÜTÖR OLMAK İSTİYORUM :<a href="#">TIKLA</a> </span><br>
+                            <h6>Gano Excel nedir ne için kullanılır? Gano Excel kime ait? Ganoexcel ne demek Gano Excel
+                                nereden geliyor?
+                                Gano Excel çikolata ne işe yarar? Gano Excel ürünleri nasıl kullanılır? </h6>
+                        </h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sosyal_medya">
+            <div class="container">
+              <div class="row align-items-center">
+                    <div class="col-4 sosyal_kutu d-flex align-items-center">
+                        <div class="row align-items-center">
+                        <div class="col-10 insta_logo d-flex align-items-center justify-content-center">
+                         <img src="image/instagram.png">
+                        </div>
+                        <div class="col-2 insta">
+                            <h5 class="h5">İnstagram</h5>
+                            <strong class="storng">Reklam</strong>
+                        </div>
+                    </div>
+                      </div>
+                      <div class="col-4 sosyal_kutu_1 d-flex align-items-center">
+                        <div class="row align-items-center">
+                        <div class="col-10 insta_logo d-flex align-items-center justify-content-center">
+                         <img src="image/youtube.png">
+                        </div>
+                        <div class="col-2 youtube">
+                            <h5 class="h5">Youtube</h5>
+                            <strong class="storng">Reklam</strong>
+                        </div>
+                    </div>
+                      </div>
+                      <div class="col-4 sosyal_kutu_2 d-flex align-items-center">
+                        <div class="row align-items-center">
+                        <div class="col-10 insta_logo d-flex align-items-center justify-content-center">
+                         <img src="image/facebook.png">
+                        </div>
+                        <div class="col-2 facebook">
+                            <h5 class="h5">Facebook</h5>
+                            <strong class="storng">Reklam</strong>
+                        </div>
+                    </div>
+                      </div>
+                      </div>
+                
+        
+              </div>
+            </div>
+            <div class="iletisim">
+                <div class="container">
+                  <div class="row align-items-center">
+                    <div class="col-6 d-flex align-items-center">
+            
+                      <div class="col-6">
+                        <div class="iletisim_alt">
+                          <h3><b>Hadi Konuşalım</b></h3>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <button type="button" class="btn btn-outline-secondary">Bize Ulaşın</button>
+                      </div>
+                    </div>
+                    <div class="col-6 d-flex align-items-center">
+                      <div class="e_posta">
+                        <h3>E-Bültene Katılın</h3>
+                        <div class="col-12">
+                          <div class="col-sm-10">
+                            <input type="email" class="form-control" id="colFormLabel" placeholder="E-posta">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <hr>
+              <div class="footer_alt">
+                <div class="container">
+                  <div class="row align-items-center">
+               
+                <div class="col-8">
+                  <div class="row align-items-center">
+                    <div class="col-3">
+                      <h4>Ganoderma'yı Neden Tüketmeliyiz?</h4>
+                      <p>Ganoderma bizi çek etme ve vücuttaki gizli hastalıkları ortaya çıkarma özelliğine sahiptir.</p>
+                    </div>
+                    <div class="col-3">
+                      <h4>Ganoderma'yı Neden Tüketmeliyiz?</h4>
+                      <p>Ganoderma bizi çek etme ve vücuttaki gizli hastalıkları ortaya çıkarma özelliğine sahiptir.</p>
+                    </div>
+                    <div class="col-3">
+                      <h4>Ganoderma'yı Neden Tüketmeliyiz?</h4>
+                      <p>Ganoderma bizi çek etme ve vücuttaki gizli hastalıkları ortaya çıkarma özelliğine sahiptir.</p>
+                    </div>
+                    <div class="col-3">
+                      <h4>Ganoderma'yı Neden Tüketmeliyiz?</h4>
+                      <p>Ganoderma bizi çek etme ve vücuttaki gizli hastalıkları ortaya çıkarma özelliğine sahiptir.</p>
+                    </div>
+                  
+                  </div>
+                  
+                </div>
+                <div class="col-4">
+                  <h6 class="title text-right">Bizimle Başarıya
+                    <br>
+                    Yürümek İster misiniz?
+                    <br>
+                   <strong> Bizi takip edin.</strong></h6>
+                </div>
+                </div>
+                </div>
+              </div>
+              <hr>
+              <div class="alt_yazi">
+                <div class="container">
+                <div class="text-center"> <span>Copyright © 2021</span></div>
+                </div>
+                </div>
+          </div>
+  
+
+    
 </body>
+
 </html>
