@@ -1,3 +1,8 @@
+* {
+    text-decoration: none;
+}
+
+
 @font-face {
     font-family: 'Biennale_kalin';
     src: url('subset-Biennale-Bold.woff2') format('woff2');
@@ -127,8 +132,8 @@
     background-color: #744700;
     border-color:#744700;
     border-radius: 20px;
-    margin-top: 50px;
     height: 50px;
+
 }
 
 .orta2_yazi span {
@@ -158,7 +163,6 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    
 }
 
 .footer_1 {
@@ -169,7 +173,6 @@
     margin-top: 100px;
     height: 400px;
     padding-top: 130px;
-
 }
 
 .footer_1 h2{
@@ -274,7 +277,6 @@
 }
 .btn-primary {
     background-color: #744700;
- 
 }
 
 .btn-outline-secondary {
@@ -358,7 +360,7 @@ text-align: center !important;
     z-index: 2;
 }
 .header_baslik{
-    text-align: center;
+   
     padding: 15px 15px 20px 0px;
 
 }
@@ -438,7 +440,7 @@ text-align: center !important;
   }
 
   .arka_plan {
-   background-color:#f1f1f1;
+   background-color: #f8f8f8;
   }
   .soru_bolumu h3 {
   color: #000;
@@ -475,8 +477,8 @@ text-align: center !important;
       font-size: 25px;
   }
   .insta_logo img{
-width: 40px;
-height: 40px;
+      width: 40px;
+      height: 40px;
   }
   .sosyal_kutu:hover {
     background: rgb(241,231,15);
@@ -488,7 +490,6 @@ height: 40px;
     height: 250px;
     margin: 10px;
     width: 400px;
-
  }
  .sosyal_kutu_2 {
     background-color: white;
@@ -496,7 +497,6 @@ height: 40px;
     height: 250px;
     margin: 10px;
     width: 400px;
-
  }
  .sosyal_kutu_1:hover {
     background-color: red;
@@ -504,3 +504,148 @@ height: 40px;
   .sosyal_kutu_2:hover {
     background-color: blue;
   } 
+  .btn-primary:hover {
+      background-color:midnightblue;
+      border-color:midnightblue;
+  }
+  .bloglar_resim img {
+      width: 92%;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-top: 15px;
+  }
+  .bloglar {
+      margin: 30px 0;
+  }
+  .bloglar_yazi {
+      background-color: #fff;
+      border-radius: 10px;
+  } 
+  .blog_baslik {
+      font-size: 20px;
+  }
+  .blog_alt_yazi {
+      font-size: 16px;
+      font-family:"Biennale_ince";
+  }
+  .blog_tarihi {
+      text-align: right;
+      margin: 20px;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Style the search field */
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .blog_kutusu {
+     margin: 20px 0;
+  }
+  .konular_kapsayici {
+      margin: 50px 10px;
+  }
+  .populer_konular {
+      margin:20px 0;
+      background-color: white;
+      padding: 20px 20px;
+      border-radius: 10px;
+  }
+  .populer_konular .list-item {
+      display: block;
+      font-size: 17px;
+      line-height: 2.5;
+      color: gray;
+      text-decoration: none;
+  }
+  .populer_konular h4 {
+      margin-bottom: 10px;
+  }
+  .reklam {
+      background-color: #9a57dc;
+      margin:10px 0 30px;
+      padding: 60px 20px;
+      border-radius: 10px;
+      height: 400px;
+  }
+  .text-center h2{
+      color: white;
+      font-size: 30px;
+  }
+  .text-center {
+      margin: 50px 0 20px 0;
+  }
+  .btn-light {
+      border-radius: 20px;
+      margin: 20px 0;
+      
+  }
+  .btn-light:hover {
+    color: #9a57dc ;
+  }
+  .bize_ulasın {
+      background-color: #014cf7;
+      border-radius: 10px;
+      color: white;
+      text-align: center;
+      height: 250px;
+  }
+  .bize_ulasın h1{
+padding: 20px 250px;
+  }
+  .bize_ulasin_buton {
+      margin: 40px 0;
+  }
+  .blog_buton {
+      text-align: right;
+     
+  }
+  .harita {
+      padding: 60px 0;
+  }
+  .icon {
+      width: 60px;
+      margin: 10px;
+  }
+  .icon img {
+      object-fit: cover;
+  }
+  .icon_yazi h2 {
+      font-size: 15px;
+      font-family: "Biennale_ince";
+      text-align: left;
+      margin-top: 20px;
+  }
+  .icon_kapsayici {
+      margin: 50px 0 50px 0;
+  }
